@@ -34,3 +34,4 @@ jobs:
           cat tests/mdTest3.csv   | ./filterCSV xml freemind        # Test of Freemind XML export
           cat tests/test1.csv     | ./filterCSV 'A2A|X' 'keep'      # Test of 'keep' - with two surviving trees
           cat tests/promotion.csv | ./filterCSV promote 2           # Test of promote
+          python3 -m pydoc filterCSV
